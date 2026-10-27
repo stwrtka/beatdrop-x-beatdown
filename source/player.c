@@ -32,7 +32,7 @@ void playerUpdate(Player *p, u32 kDown, u32 kHeld, C2D_Sprite *plat)
         p->x = 0;
 
     if(p->x + pw > TOP_SCREEN_WIDTH )
-        P->x = TOP_SCREEN_WIDTH - pw;
+        p->x = TOP_SCREEN_WIDTH - pw;
 
     if (playerHits(p, plat))
     {
